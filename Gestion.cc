@@ -247,7 +247,7 @@ int venta(){
                 cout<<"========================================================================================================================" << endl;
 
                 int ganancias = 0;
-                
+
                 ganancias = nCantVenta * aux->precio;
 
                 cout<<"Dinero obtenido de la venta: $" << ganancias << endl;
@@ -260,6 +260,7 @@ int venta(){
             }
         }
     }
+    return 0;
 }
 //método principal
 int main(){
@@ -284,8 +285,7 @@ int main(){
         cout<<"     5. Calcular El Valor Total Del Inventario \n";
         cout<<"     6. Calcular el Promedio de Precios \n";
         cout<<"     7. Vender Producto \n";
-        cout<<"     8. Mostrar Ganancias \n";
-        cout<<"     9. Salir del Programa\n";
+        cout<<"     8. Salir del Programa\n";
         cout<<"========================================================================================================================\n";
         cout<<"     Ingrese lo que desea realizar:\n";
         cout<<"     ---> "; cin>>opcion;
